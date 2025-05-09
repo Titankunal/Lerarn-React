@@ -6,7 +6,7 @@ function App() {
   return(
   <>
   <Header/>
-  <Food/>
+  <Food/>+
   <Footer/>
   
   </>
