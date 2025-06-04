@@ -1,11 +1,13 @@
+import React from 'react'
 
-function(){
-    return(
-        <div className="card">
-            <h2>Kunal</h2>
-            <p>I am a web developer and i play cricket</p>
-        </div>
-    );
+const card = () => {
+  return (
+    <div className=''>
+        <img src="" alt="Image loading failed" />
+        <h2>Kunal Bisht</h2>
+        <p>I am a programmer and I like to play Cricket</p>      
+    </div>
+  )
 }
 
-export default Card
+export default card
