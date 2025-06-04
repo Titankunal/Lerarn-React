@@ -1,16 +1,12 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Food from "./food.jsx";
+import React from 'react'
+import Card from './card'
 
-function App() {
-  return(
-  <>
-  <Header/>
-  <Food/>
-  <Footer/>
-  
-  </>
-  );
+const App = () => {
+  return (
+    <>
+    <Card/>
+    </>
+  )
 }
 
 export default App
